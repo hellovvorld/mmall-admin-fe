@@ -33,17 +33,18 @@
 1、npm install webpack -g 全局安装 (npm uninstall webpack -g)
 2、npm init
 3、npm install webpack@4.2.0 --save-dev
-4、npm install babel-core --save-dev
-5、npm install babel-loader --save-dev
-6、npm install babel-preset-es2015 --save-dev
-7、npm install babel-preset-react --save-dev
-8、npm install css-loader style-loader --save-dev
-9、npm install extract-text-webpack-plugin file-loader html-loader html-webpack-plugin --save-dev
-10、npm install jsx-loader node-sass sass-loader url-loader webpack-dev-server --save-dev
-11、npm install bootstrap@3.3.7 --save
-12、npm install font-awesome@4.7.0 --save
-13、npm install rc-pagination --save
-14、npm install react --save
-15、npm install react-dom react-fileupload react-router --save
-16、npm install sb-admin-2 simditor --save
+4、npm install --save-dev webpack-cli
+5、npm install babel-core --save-dev
+6、npm install babel-loader --save-dev
+7、npm install babel-preset-es2015 --save-dev
+8、npm install babel-preset-react --save-dev
+9、npm install css-loader style-loader --save-dev
+10、npm install extract-text-webpack-plugin file-loader html-loader html-webpack-plugin --save-dev
+11、npm install jsx-loader node-sass sass-loader url-loader webpack-dev-server --save-dev
+12、npm install bootstrap@3.3.7 --save
+13、npm install font-awesome@4.7.0 --save
+14、npm install rc-pagination --save
+15、npm install react --save
+16、npm install react-dom react-fileupload react-router --save
+17、npm install sb-admin-2 simditor --save
 ```
