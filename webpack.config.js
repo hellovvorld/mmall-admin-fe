@@ -2,7 +2,7 @@
 * @Author: Rosen
 * @Date:   2016-11-20 13:19:28
 * @Last Modified by:   yuyongtao
-* @Last Modified time: 2018-06-02 19:21:46
+* @Last Modified time: 2018-07-19 15:33:56
 * 知识点：css单独打包、全局jquery引用、各种loader
 */
 
@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.happymmall.com/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.happymmall.com/mmall-admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
