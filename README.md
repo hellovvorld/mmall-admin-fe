@@ -30,21 +30,10 @@
 3.后台管理系统的预览账号：admin  happymmalladmin
 ## 环境搭建(全局安装不需要添加版本号、局部安装需要添加版本号)
 ```
-1、npm install webpack -g 全局安装 (npm uninstall webpack -g)
-2、npm init
-3、npm install webpack@4.2.0 --save-dev
-4、npm install --save-dev webpack-cli
-5、npm install babel-core --save-dev
-6、npm install babel-loader --save-dev
-7、npm install babel-preset-es2015 --save-dev
-8、npm install babel-preset-react --save-dev
-9、npm install css-loader style-loader --save-dev
-10、npm install extract-text-webpack-plugin file-loader html-loader html-webpack-plugin --save-dev
-11、npm install jsx-loader node-sass sass-loader url-loader webpack-dev-server --save-dev
-12、npm install bootstrap@3.3.7 --save
-13、npm install font-awesome@4.7.0 --save
-14、npm install rc-pagination --save
-15、npm install react --save
-16、npm install react-dom react-fileupload react-router --save
-17、npm install sb-admin-2 simditor --save
+npm install webpack -g 全局安装 (npm uninstall webpack -g)
+npm init
+npm install webpack@4.2.0 --save-dev
+npm install node-sass@4.10.0 --unsafe-perm --save
+npm install bootstrap@3.3.7 font-awesome@4.6.3 rc-pagination@1.7.1 react@15.4.2 react-dom@15.4.2 react-fileupload@2.4.0 react-router@3.0.2 sb-admin-2@3.3.8 simditor@2.3.6 --save-dev
+npm install babel-core@6.9.1 babel-loader@6.2.4 babel-preset-es2015@6.9.0 babel-preset-react@6.5.0 css-loader@0.23.1 extract-text-webpack-plugin@2.1.0 file-loader@0.8.5 html-loader@0.4.3 html-webpack-plugin@2.26.0 jsx-loader@0.13.2 sass-loader@5.0.1 style-loader@0.13.0 url-loader@0.5.7 webpack-dev-server@1.16.2 --save
 ```
