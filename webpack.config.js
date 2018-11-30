@@ -41,7 +41,7 @@ var config = {
     },
     module: {
         // noParse: [],
-        loaders: [
+        rules: [
             {
                 test: /\.css$/, loader: ExtractTextPlugin.extract({
                     use: 'css-loader',
