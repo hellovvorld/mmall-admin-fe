@@ -23,7 +23,7 @@
 
 
 注意：
-1.后台管理系统使用了sass, 需要安装ruby和sass
+1.后台管理系统使用了sass, 需要安装ruby(yum install ruby)和sass(npm install -g sass)
 
 2.后端接口也要使用代理，http://localhost:8086/manage/* --> http://admin.happymmall.com/manage/
 
