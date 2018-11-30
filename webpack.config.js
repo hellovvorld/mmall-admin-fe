@@ -74,10 +74,10 @@ var config = {
     },
     plugins: [
         // 提出公共部分 
-        new webpack.optimize.CommonsChunkPlugin({
-            name        : 'vendors',
-            filename    : 'js/base.js'
-        }),
+        //new webpack.optimize.CommonsChunkPlugin({
+        //    name        : 'vendors',
+        //    filename    : 'js/base.js'
+        //}),
         // 单独处理css
         new ExtractTextPlugin('css/[name].css'),
         // html 加载
@@ -95,7 +95,19 @@ var config = {
                 collapseWhitespace: false
             }
         }),
-    ]
+    ],
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                commons: {
+                    name:"vendors",
+                    filename : "js/base.js",
+                    chunks: 'initial',
+                    minChunks: 2
+                }
+            }
+        }
+    }
 };
 
 // 开发环境下，使用devServer热加载
