@@ -52,7 +52,19 @@ var config = {
                 use: 'css-loader!sass-loader',
                 fallback : 'style-loader'
             })},
-            {test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=20000&name=resource/[name].[ext]'},
+            //{test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=20000&name=resource/[name].[ext]'},
+            {
+                test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 20000,
+                            name: 'resource/[name].[ext]'
+                        }
+                    }
+                ]
+            },
             {test: /\.(string)$/, loader: 'html-loader' },
             {
                 test: /\.js?$/,
