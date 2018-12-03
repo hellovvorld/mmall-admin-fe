@@ -45,3 +45,62 @@ npm install bootstrap@3.3.7 font-awesome@4.6.3 rc-pagination@1.7.1 react@15.4.2 
 npm install babel-core@6.9.1 babel-loader@6.2.4 babel-preset-es2015@6.9.0 babel-preset-react@6.5.0 css-loader@0.23.1 extract-text-webpack-plugin@2.1.0 file-loader@0.8.5 html-loader@0.4.3 html-webpack-plugin@2.26.0 jsx-loader@0.13.2 sass-loader@5.0.1 style-loader@0.13.0 url-loader@0.5.7 --save-dev
 npm install webpack-cli
 ```
+## package.json例子
+```
+{
+  "name": "mmall-admin-fe",
+  "version": "1.0.0",
+  "description": "mmall front end code!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "WEBPACK_ENV=dev webpack-dev-server --port 8086 --inline",
+    "dev_win": "set WEBPACK_ENV=dev && webpack-dev-server --port 8086 --inline",
+    "dist": "WEBPACK_ENV=online webpack -p",
+    "dist_win": "set WEBPACK_ENV=online && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellovvorld/mmall-admin-fe.git"
+  },
+  "keywords": [
+    "mmall-admin-fe"
+  ],
+  "author": "yyt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellovvorld/mmall-admin-fe/issues"
+  },
+  "homepage": "https://github.com/hellovvorld/mmall-admin-fe#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^3.2.0",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "rc-pagination": "^1.7.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-fileupload": "^2.4.0",
+    "react-router": "^3.0.2",
+    "sb-admin-2": "^3.3.8",
+    "simditor": "^2.3.6",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
+
+```
