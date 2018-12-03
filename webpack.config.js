@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.mmall.com/mmall-admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//admin.flowingsand.com/mmall-admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
