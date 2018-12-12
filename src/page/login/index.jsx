@@ -64,7 +64,7 @@ const Login = React.createClass({
                             <form role="form" onSubmit={this.onLogin}>
                                 <div className="form-group">
                                     <input className="form-control" 
-                                        placeholder="User Name" 
+                                        placeholder="请输入用户名"
                                         name="username" 
                                         type="text" 
                                         autoComplete="off" 
@@ -73,12 +73,12 @@ const Login = React.createClass({
                                 </div>
                                 <div className="form-group">
                                     <input className="form-control" 
-                                        placeholder="Password" 
+                                        placeholder="请输入密码" 
                                         name="password" 
                                         type="password" 
                                         onChange={this.onInputChange}/>
                                 </div>
-                                <button type="submit" className="btn btn-lg btn-primary btn-block">Login</button>
+                                <button type="submit" className="btn btn-lg btn-primary btn-block">登 录</button>
                             </form>
                         </div>
                     </div>
