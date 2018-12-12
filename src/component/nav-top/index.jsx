@@ -53,7 +53,7 @@ const TopNav = React.createClass({
                         {
                             this.state.userName ? 
                             <span>欢迎，{this.state.userName}</span> :
-                            <span>欢迎</span>
+                            <span><a className="btn-logout" onClick={this.onLogout}>请登录</a></span>
                         }
                         
                     </li>
