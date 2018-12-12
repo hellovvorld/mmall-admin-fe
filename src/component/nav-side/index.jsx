@@ -25,16 +25,11 @@ const SideNav = React.createClass({
             <div className="navbar-default sidebar" role="navigation">
                 <div className="sidebar-nav navbar-collapse">
                     <ul className="nav" id="side-menu">
-                        <li>
-                            <IndexLink to="/home" activeClassName="active">
-                                <i className="fa fa-dashboard fa-fw"></i>
-                                <span>Home</span>
-                            </IndexLink>
-                        </li>
+
                         <li>
                             <Link>
                                 <i className="fa fa-bar-chart-o fa-fw"></i>
-                                <span>商品</span>
+                                <span> 商品</span>
                             </Link>
                             <ul className="nav nav-second-level collapse in">
                                 <li>
@@ -48,7 +43,7 @@ const SideNav = React.createClass({
                         <li>
                             <Link>
                                 <i className="fa fa-wrench fa-fw"></i>
-                                <span>订单</span>
+                                <span> 订单</span>
                             </Link>
                             <ul className="nav nav-second-level collapse in">
                                 <li>
